@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to Parent Component
+  </h1>
+  <app-child-component [pData]="msg" (myEvent)="message = $event"></app-child-component>
+
+  <h3>{{message}}</h3>
+</div>
+
+
+
